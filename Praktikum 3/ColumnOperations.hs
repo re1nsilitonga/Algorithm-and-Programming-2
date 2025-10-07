@@ -23,7 +23,6 @@ columnOperations a
 	| null (head a) = []
 	| otherwise = zipWith applyOp [0..] (transpose a)
 	where
-
 		ops = cycle [maximum, minimum, sum]
 		applyOp i col = (ops !! i) col
 
