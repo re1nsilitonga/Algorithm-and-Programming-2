@@ -1,0 +1,17 @@
+# Compiled object files
+*.o
+*.obj
+
+# Executable files
+*.exe
+*.out
+test_bst
+
+# macOS
+.DS_Store
+__MACOSX/
+
+# IDE
+.idea/
+*.swp
+*.swo
